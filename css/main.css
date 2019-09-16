@@ -508,14 +508,38 @@ table:last-child {
     margin-bottom: 0;
 }
 
+th,
+td {
+    padding-bottom: 22px;
+    vertical-align: top;
+}
 
+th {
+    padding-right: 45px;
+    text-align: right;
+    width: 20%;
+}
 
+td {
+    width: 40%;
+}
 
+thead {
+    line-height: 44px;
+}
 
+thead th {
+    color: #648880;
+    font-size: 24px;
+}
 
-
-
-
+tbody th {
+    color: #a9b2b9;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 22px;
+    text-transform: uppercase;
+}
 
 
 
